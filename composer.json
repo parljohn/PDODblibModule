@@ -1,5 +1,5 @@
 {
-    "name": "mabuzagu/pdo-dblib-module",
+    "name": "parljohn/pdo-dblib-module",
     "description": "MSSQL dbib module for zf",
     "type": "library",
     "keywords": [
@@ -7,8 +7,8 @@
     ],
     "authors": [
         {
-            "name": "Gugu Mabuza",
-            "email": "mabuzagu@gmail.com",
+            "name": "Parl Johnson",
+            "email": "parl@patientdocs.com",
             "homepage": "https://broad.msu.edu"
         }
     ],
