@@ -134,11 +134,11 @@ class Connection extends PDOConnection implements \Doctrine\DBAL\Driver\Connecti
     {
         $id = null;
         if ($this->_pdoLastInsertId() === true) {
-            $id = parent::lastInsertId();
-        } else {
             $stmt = $this->query('SELECT SCOPE_IDENTITY()');
             $id = $stmt->fetchColumn();
             $stmt->closeCursor();
+        } else {
+            $id = parent::lastInsertId();
         }
 
         return $id;
