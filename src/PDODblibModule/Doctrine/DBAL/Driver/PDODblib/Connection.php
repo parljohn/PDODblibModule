@@ -22,6 +22,7 @@
 namespace PDODblibModule\Doctrine\DBAL\Driver\PDODblib;
 
 use Doctrine\DBAL\Driver\PDOConnection;
+use PDO;
 
 /**
  * PDODblib Connection implementation.
